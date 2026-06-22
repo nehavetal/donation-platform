@@ -1,0 +1,15 @@
+Login → Add Donation → Select NGO → Schedule Pickup → Track Status
+Login → View Donations → Accept → Mark Received
+Login → Verify NGOs → Monitor Donations
+
+| Module          | Status     |
+| --------------- | ---------- |
+| Auth            | ✅ Done     |
+| NGO system      | ✅ Done     |
+| Donation system | 🟡 Partial |
+| Pickup system   | ❌ Missing  |
+| Tracking        | ❌ Missing  |
+| Notifications   | ❌ Missing  |
+| Admin panel     | 🟡 Partial |
+| NGO dashboard   | ❌ Missing  |
+| Analytics       | ❌ Missing  |
