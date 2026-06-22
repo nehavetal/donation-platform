@@ -48,7 +48,7 @@ app.use("/api/ngos", ngoRoutes);
 app.use("/api/pickups", pickupRoutes);
 
 // 404 Handler
-app.use("*", (req, res) => {
+app.use((req, res) => {
   res.status(404).json({
     success: false,
     message: "Route not found",
