@@ -28,10 +28,15 @@ app.use("/api/donations", donationRoutes);
 app.use("/api/ngos", ngoRoutes);
 app.use("/api/pickups", pickupRoutes);
 
-// ❌ 404 handler
-app.use((req, res) => {
-  res.status(404).json({
-    message: "Route not found",
+// // ❌ 404 handler
+// app.use((req, res) => {
+//   res.status(404).json({
+//     message: "Route not found",
+//   });
+// });
+app.get("/", (req, res) => {
+  res.json({
+    message: "Donation Platform Backend Running Successfully"
   });
 });
 
